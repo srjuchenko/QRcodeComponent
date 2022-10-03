@@ -6,13 +6,16 @@
 }
 
 body {
-  padding-top: 50px;
+  position: relative;
   background-color: #e2e7fd;
 }
 
 .qr-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
   text-align: center;
-  margin: 0 auto;
   display: flex;
   gap: 28px;
   flex-direction: column;
@@ -45,6 +48,10 @@ body {
 }
 
 .attribution {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
   margin-top: 15px;
   font-size: 11px;
   text-align: center;
